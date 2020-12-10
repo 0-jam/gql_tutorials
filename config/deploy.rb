@@ -42,8 +42,6 @@ append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/syst
 set :rbenv_type, :user # or :system, depends on your rbenv setup
 set :rbenv_ruby, "2.7.2"
 
-set :bundle_jobs, 1
-
 server ENV.fetch("DEPLOY_TO"),
        user: ENV.fetch("DEPLOY_USER_NAME"),
        roles: %w[app db web],
