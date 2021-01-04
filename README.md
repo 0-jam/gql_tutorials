@@ -5,8 +5,9 @@
 ---
 
 1. [Environment](#environment)
-1. [Example](#example)
-    1. [Searching posts by ID](#searching-posts-by-id)
+1. [Deploying](#deploying)
+1. [Query Example](#query-example)
+  1. [Searching posts by ID](#searching-posts-by-id)
 
 ---
 
@@ -17,7 +18,13 @@
 - Rails 6.0.3
 - PostgreSQL 12.5
 
-## Example
+## Deploying
+
+After setting up your server, run this command to deploy
+
+`DEPLOY_TO=<ip address or hostname> SSH_KEY_PATH=<your SSH secret key> DEPLOY_USER_NAME=<username in the server> bx cap production deploy`
+
+## Query Example
 
 All query strings are available after `$ bundle exec rails db:seed`
 

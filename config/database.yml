@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: gql_tutorials_production
-  username: gql_tutorials
+  username: <%= ENV['DEPLOY_USER_NAME'] %>
   password: <%= ENV['GQL_TUTORIALS_DATABASE_PASSWORD'] %>
