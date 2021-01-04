@@ -22,7 +22,7 @@
 
 After setting up your server, run this command to deploy
 
-`DEPLOY_TO=<ip address or hostname> SSH_KEY_PATH=<your SSH secret key> DEPLOY_USER_NAME=<username in the server> bx cap staging deploy`
+`DEPLOY_TO=<ip address or hostname> SSH_KEY_PATH=<your SSH secret key> DEPLOY_USER_NAME=<username in the server> bx cap production deploy`
 
 ## Query Example
 
